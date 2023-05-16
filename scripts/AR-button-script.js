@@ -1,10 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const arButton = document.getElementById('ar-button');
-    const body = document.body;
+    const arButton = document.getElementById('checkbox');
+    const overlay = document.getElementById('overlay')
     
     function toggleArTint() {
-      body.classList.toggle('ar-tint');
-    }
-  
-    arButton.addEventListener('click', toggleArTint);
-  });
+      overlay.classList.toggle('visibility');
+    };
