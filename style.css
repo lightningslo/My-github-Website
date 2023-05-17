@@ -167,7 +167,8 @@ nav {
 	color: red;
   }
 .images {
-	text-align: right;
+	float:right;
+	display:block;
 }
 .content {
 	margin-right: 25%;
