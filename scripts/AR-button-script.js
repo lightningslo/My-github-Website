@@ -2,7 +2,7 @@
     const overlay = document.getElementById('overlay')
     
     function toggleArTint() {
-      if (overlay.style.visibility = "visible"){
+      if (overlay.style.visibility == "visible"){
       overlay.style.visibility = "hidden"
       }
       else{
