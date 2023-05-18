@@ -20,10 +20,22 @@ credit for such work.
 
 My resonse:
 
-Usability: The website is structured to be easy to navigate because you can scroll the entire website, the content is presented from easy to understand to more complex closer to the bottom which should make it easier on the user, especially those who aren’t as good with technology. There is also the nav bar on the right that lets you jump right to the section you want to see. 
+Usability: The website is structured to be easy to navigate because you can scroll the entire website, the content is presented from easy to understand to more complex closer to the bottom 
+which should make it easier on the user, especially those who aren’t as good with technology. There is also the nav bar on the right that lets you jump right to the section you want to see. 
 
-Educational Value: The user learns about what AR is, the difference between AR and it’s counterparts, AR, VR, XR, and MR. Next the user can learn about the basic ways AR works, marker vs markerless AR. Finally if they want to learn more about AR and new developments in AR, the last section links to news articles relating to new developments in augmented reality. This caters to my personas because the personas with little knowledge and mild interest learn immediately about basic concepts then can use the button and scan the QR code to experience AR firsthand. For the more experienced personas like most people I interviewed who knew about snapchat filters but didn’t know the term augmented reality they hopefully learned more about it and can leave the website knowing more about AR that they use often. For the persona that is very experienced they can read the new developments section to quickly see how things are changing and if they want can click the image to dive into the article and learn more. 
+Educational Value: The user learns about what AR is, the difference between AR and it’s counterparts, AR, VR, XR, and MR. Next the user can learn about the basic ways AR works, 
+marker vs markerless AR. Finally if they want to learn more about AR and new developments in AR, the last section links to news articles relating to new developments in augmented reality.
+This caters to my personas because the personas with little knowledge and mild interest learn immediately about basic concepts then can use the button and scan the QR code to experience
+AR firsthand. For the more experienced personas like most people I interviewed who knew about snapchat filters but didn’t know the term augmented reality they hopefully learned more about it
+and can leave the website knowing more about AR that they use often. For the persona that is very experienced they can read the new developments section to quickly see how things are changing 
+and if they want can click the image to dive into the article and learn more. 
 
-Interactivity: The user is able to interact with many different elements on the page. The nav bar on the right allows for quick navigation. The slides that scroll when you click the next button, or the flipcards that creatively show the difference between AR and other components. The most useful educational interactive device is the QR code that is hidden on the overview only appearing when you have the AR button toggled on. This is an example of a marker element that can be scanned by the user on a cell phone camera, unfortunately I couldn't find a way to display it through the computer since it needs to incorporate reality and that would require a webcam which not everyone has, myself included. It is hidden to represent the hidden elements of Augmented reality, having something not really there but visible with the help of AR devices.
+Interactivity: The user is able to interact with many different elements on the page. The nav bar on the right allows for quick navigation. 
+The slides that scroll when you click the next button, or the flipcards that creatively show the difference between AR and other components. 
+The most useful educational interactive device is the QR code that is hidden on the overview only appearing when you have the AR button toggled on. 
+This is an example of a marker element that can be scanned by the user on a cell phone camera, unfortunately I couldn't find a way to display it 
+through the computer since it needs to incorporate reality and that would require a webcam which not everyone has, myself included. 
+It is hidden to represent the hidden elements of Augmented reality, having something not really there but visible with the help of AR devices.
 
-Aesthetics: I got my color scheme from a blog post by Nayomi Chibana titled “50 Gorgeous Color Schemes From Award-Winning Websites” The website also features cool aesthetic choices like flipcards and slide-cards, I also used flexboxes for elements to be formatted well in the space. 
+Aesthetics: I got my color scheme from a blog post by Nayomi Chibana titled “50 Gorgeous Color Schemes From Award-Winning Websites” 
+My website also features cool aesthetic choices like flipcards and slide-cards, I also used flexboxes for elements to be formatted well in the space. 
