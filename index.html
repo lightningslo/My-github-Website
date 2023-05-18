@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Augmented Reality Website</title>
 	<link rel="stylesheet" href="style.css">
-	
 </head>
+
 <body>
 	<header>
 		<h1>Augmented Reality</h1>
 		<p></p>
 	</header>
 	<main>
-		<div id = overlay>
-			
-		</div>
+		<div id="overlay"></div>
 		<div class="sidebar">
 			<h2></h2>
-			<p><!--probably a photo or sumthin--></p>
+			<p></p>
 			<nav>
 				<ul>
 					<li><a href="#section1">Overview</a></li>
@@ -27,186 +26,110 @@
 				</ul>
 			</nav>
 		</div>
-
-		  <input type="checkbox" id="checkbox" onclick = "toggleArTint()";>
-		  <label for="checkbox" class="switch">
-			  <div class="powersign"></div>
-		  </label>
-		  <div class="clickme">
-			<h3>
-				"Click ME!"
-			</h3>
-		  </div>
-		
-
+		<input type="checkbox" id="checkbox" onclick="toggleArTint()">
+		<label for="checkbox" class="switch">
+			<div class="powersign"></div>
+		</label>
+		<div class="clickme">
+			<h3>"Click ME!"</h3></div>
 		<div class="content">
 			<section id="section1">
-				<h2 class = "subheader">What is Augmented Reality</h2>
-				<p class = "information">Augmented Reality is viewing the world through an augmented lens created with new technologies. <br>
-					<br>Augmented reality works by showing you the world around you as it is then overlaying new images or elements to it that augment and change how the world is perceived in that lens.
-				</p>
-				<img class = "images" src = "images/torchic.jpg" alt = "Pokemon Go Torchic AR example"><!--throw image of pokemon go here or sumthin-->
-<!-- hidden elements here-->
-				<svg class="diagram">
-					<!-- SVG code for animated diagrams -->
-				</svg>
+				<h2 class="subheader">What is Augmented Reality</h2>
+				<p class="information">Augmented Reality is viewing the world through an augmented lens created with new technologies.
+					<br>
+					<br>Augmented reality works by showing you the world around you as it is then overlaying new images or elements to it that augment and change how the world is perceived in that lens.</p><img class="images" src="images/torchic.jpg" alt="Pokemon Go Torchic AR example">
+				<svg class="diagram"></svg>
 			</section>
-
-
-
 			<section id="section2">
-				<h2 class = "subheader">Uses for AR</h2>
-				<img class = "images" src = "images/car.png" href = "https://www.thedrive.com/cars-101/34394/backup-camera-installation" alt = "car backup cam">
-				
-				<div class = "content">
-				<ul class = "information">
-					&bull; Furniture companies allow you to see how items will look in your house while
-					they're not physically there.
-					<br>
-					<br>
-					&bull;Used in many cars backup cameras and parking eagle eye cameras and navigation
-					<br>
-					<br>
-					&bull;Manufacturing is starting to use AR to visualize where certain parts should go.
-					<br>
-					<br>
-					&bull;Entertainment and Gaming, many games are being and have been developed.
-					
-					</ul>
-				</div>
-				<img class = "images" src = "images/mario.png" href = "https://newatlas.com/games/nintendo-switch-mario-kart-live-home-circuit/" alt = "new mario AR game" >	
+				<h2 class="subheader">Uses for AR</h2><img class="images" src="images/car.png" href="https://www.thedrive.com/cars-101/34394/backup-camera-installation" alt="car backup cam">
 				<div class="content">
-					<ul class = "information">
-					&bull;Architecture is using AR to visualize buildings and creations before construction
-					begins.	
-				</ul>		
+					<ul class="information">&bull; Furniture companies allow you to see how items will look in your house while they're not physically there.
+						<br>
+						<br>&bull;Used in many cars backup cameras and parking eagle eye cameras and navigation
+						<br>
+						<br>&bull;Manufacturing is starting to use AR to visualize where certain parts should go.
+						<br>
+						<br>&bull;Entertainment and Gaming, many games are being and have been developed.</ul>
+				</div><img class="images" src="images/mario.png" href="https://newatlas.com/games/nintendo-switch-mario-kart-live-home-circuit/" alt="new mario AR game">
+				<div class="content">
+					<ul class="information">&bull;Architecture is using AR to visualize buildings and creations before construction begins.</ul>
 				</div>
 			</section>
-		
-
 			<section id="section3">
-				<h2 class = "subheader">VR vs. AR</h2><br>
-				<!--first flip card-->
-				<div class = "flip-card-container">
-				<div class = "flip-card">
-					<div class = "flip-card-inner">
-						<div class = "flip-card-front">
-							
-							<img src="images/AR-machine.jpg" href = "https://iot.eetimes.com/augmented-reality-virtual-reality-mixed-reality-exploring-tomorrows-possibilities/" alt = "AR example with machine labels" style="width:450px;height:300px;">
-						</div>
-						<div class="flip-card-back">
-							<h1>Augmented Reality</h1>
-							<p>AR uses the world around you and brings in new
-								computer generated elements. </p>
+				<h2 class="subheader">VR vs. AR</h2>
+				<br>
+				<div class="flip-card-container">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front"><img src="images/AR-machine.jpg" href="https://iot.eetimes.com/augmented-reality-virtual-reality-mixed-reality-exploring-tomorrows-possibilities/" alt="AR example with machine labels" style="width:450px;height:300px"></div>
+							<div class="flip-card-back">
+								<h1>Augmented Reality</h1>
+								<p>AR uses the world around you and brings in new computer generated elements.</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!--second flip card-->
-				
-				<div class="flip-card">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="images/mark.webp" href = "https://nypost.com/2022/12/28/sorry-zuck-sales-of-vr-headsets-tumble-in-2022/" alt = "Lizard man using VR" style="width:450px;height:300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Virtual Reality</h1>
-						<p>VR puts users in a artificial environment through the use of headsets and provides a fully artificial experience completely disconnected from the real world.</p>
-					  </div>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front"><img src="images/mark.webp" href="https://nypost.com/2022/12/28/sorry-zuck-sales-of-vr-headsets-tumble-in-2022/" alt="Lizard man using VR" style="width:450px;height:300px"></div>
+							<div class="flip-card-back">
+								<h1>Virtual Reality</h1>
+								<p>VR puts users in a artificial environment through the use of headsets and provides a fully artificial experience completely disconnected from the real world.</p>
+							</div>
+						</div>
 					</div>
-				  </div>
-				<!--third flip card-->
-				<div class="flip-card">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="images/Mixed_Reality.avif" alt="Mixed Reality example with glasses" href = "https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-mixed-reality" style="width:450px;height:300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Mixed Reality</h1>
-						<p>Mixed Reality combines virtual and real-world elements, allowing interaction with both physical and digital objects, this is where most Augemnted Reality devices are headed.</p>
-					  </div>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front"><img src="images/Mixed_Reality.avif" alt="Mixed Reality example with glasses" href="https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-mixed-reality" style="width:450px;height:300px"></div>
+							<div class="flip-card-back">
+								<h1>Mixed Reality</h1>
+								<p>Mixed Reality combines virtual and real-world elements, allowing interaction with both physical and digital objects, this is where most Augemnted Reality devices are headed.</p>
+							</div>
+						</div>
 					</div>
-				  </div>
-				<!--fourth flip card-->
-				<div class="flip-card">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="images/XR.jpg" alt="Extended Reality example photo" href = "https://www.vyrian.com/what-is-extended-reality-xr-technology/"style="width:450px;height:300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Extended Reality</h1>
-						<p>XR is the culmination of all 3 other types of sensory changing technologies (MR,VR, AR). </p>
-					  </div>
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front"><img src="images/XR.jpg" alt="Extended Reality example photo" href="https://www.vyrian.com/what-is-extended-reality-xr-technology/" style="width:450px;height:300px"></div>
+							<div class="flip-card-back">
+								<h1>Extended Reality</h1>
+								<p>XR is the culmination of all 3 other types of sensory changing technologies (MR,VR, AR).</p>
+							</div>
+						</div>
 					</div>
-				</div>
 				</div>
 			</section>
-
-
-
 			<section id="section4">
-				<h2 class = "subheader">How AR Works</h2>
-				
-				<h1 style="text-align: center;">AR has two primary methods of working <u><b>Marker</b></u> and <u><b>Markerless</b></u></h1>
-				
+				<h2 class="subheader">How AR Works</h2>
+				<h1 style="text-align:center">AR has two primary methods of working <u><b>Marker</b></u> and <u><b>Markerless</b></u></h1>
 				<div class="slide-container">
 					<div class="slide active-slide">
-					  <h1>Marker-based AR</h1>
-					  <p>Two types of AR used right now are Marker-based AR and Markerless AR.
-						Marker-based AR is AR generated around a object known as a marker, an example of this
-						would be a mural that might have a scan me QR code that brings you to a AR app that
-						shows the mural moving or doing something that is directly on or based around that
-						marker. </p>
-						<img class = "blockimages" src="images/qr.jpeg" href="https://www.qrcode-tiger.com/qr-codes-in-augmented-reality-advertising" style="height:90px; width:150px; margin-left:0%">
-					</div>
+						<h1>Marker-based AR</h1>
+						<p>Two types of AR used right now are Marker-based AR and Markerless AR. Marker-based AR is AR generated around a object known as a marker, an example of this would be a mural that might have a scan me QR code that brings you to a AR app that shows the mural moving or doing something that is directly on or based around that marker.</p><img class="blockimages" src="images/qr.jpeg" href="https://www.qrcode-tiger.com/qr-codes-in-augmented-reality-advertising" style="height:90px;width:150px;margin-left:0"></div>
 					<div class="slide">
-					  <h1>Markerless AR</h1>
-					  <p>Markerless AR is AR that doesn't have to revolve around a marker, this usually
-						has to have more sensors and the system has to better understand the environment around
-						itself, also uses AI to recognize patterns for shifts in height or tilt on surfaces around you.
-						This is more desirable for the user since it can be used anywhere however is significantly
-						more difficult for developers to implement.
-						</p>
-						<img class = "blockimages" src="images/markerless.jpg" href="https://cyber-fox.net/blog/markerless-augmented-realitymarkerless-augmented-reality-pros-cons/" style="height:90px; width:150px;">
-					</div>
+						<h1>Markerless AR</h1>
+						<p>Markerless AR is AR that doesn't have to revolve around a marker, this usually has to have more sensors and the system has to better understand the environment around itself, also uses AI to recognize patterns for shifts in height or tilt on surfaces around you. This is more desirable for the user since it can be used anywhere however is significantly more difficult for developers to implement.</p><img class="blockimages" src="images/markerless.jpg" href="https://cyber-fox.net/blog/markerless-augmented-realitymarkerless-augmented-reality-pros-cons/" style="height:90px;width:150px"></div>
 					<button class="slidebutton">Next</button>
-				  </div>
-
-				</section>
-
-
-
-				<section id="section5">
-  					<h2 class="subheader">New Developments</h2>
-  <div class="article-container">
-    <div class="article">
-      <a class="article-link" href="https://www.auganix.org/ar-news-google-introduces-new-arcore-and-geospatial-features/" target="_blank">
-        <img class="article-image" src="images/news1.webp" alt="Article Image 1">
-        <h3 class="article-title">Google introduces new ARCore and Geospatial features</h3>
-      </a>
-    </div>
-    <div class="article">
-      <a class="article-link" href="https://www.auganix.org/ar-news-google-launches-geospatial-creator-for-building-world-scale-augmented-reality-experiences/" target="_blank">
-        <img class="article-image" src="images/news2.webp" alt="Article Image 2">
-        <h3 class="article-title">Google launches Geospatial Creator for building world-scale augmented reality experiences</h3>
-      </a>
-    </div>
-    <div class="article">
-      <a class="article-link" href="https://www.auganix.org/xr-news-us-space-force-training-service-members-with-xr-suite-from-charles-river-analytics/" target="_blank">
-        <img class="article-image" src="images/news3.webp" alt="Article Image 3">
-        <h3 class="article-title">U.S. Space Force training service members with XR suite from Charles River Analytics</h3>
-      </a>
-    </div>
-  </div>
-</section>
-
-
+				</div>
+			</section>
+			<section id="section5">
+				<h2 class="subheader">New Developments</h2>
+				<div class="article-container">
+					<div class="article">
+						<a class="article-link" href="https://www.auganix.org/ar-news-google-introduces-new-arcore-and-geospatial-features/" target="_blank"><img class="article-image" src="images/news1.webp" alt="Article Image 1">
+							<h3 class="article-title">Google introduces new ARCore and Geospatial features</h3></a>
+					</div>
+					<div class="article">
+						<a class="article-link" href="https://www.auganix.org/ar-news-google-launches-geospatial-creator-for-building-world-scale-augmented-reality-experiences/" target="_blank"><img class="article-image" src="images/news2.webp" alt="Article Image 2">
+							<h3 class="article-title">Google launches Geospatial Creator for building world-scale augmented reality experiences</h3></a>
+					</div>
+					<div class="article">
+						<a class="article-link" href="https://www.auganix.org/xr-news-us-space-force-training-service-members-with-xr-suite-from-charles-river-analytics/" target="_blank"><img class="article-image" src="images/news3.webp" alt="Article Image 3">
+							<h3 class="article-title">U.S. Space Force training service members with XR suite from Charles River Analytics</h3></a>
+					</div>
+				</div>
+			</section>
 		</div>
-		<!-- button-->
-	<script src="scripts/AR-button-script.js"> 
-	</script>
+		<script src="scripts/AR-button-script.js"></script>
 	</main>
-	
-
-	
 </body>
+
 </html>
